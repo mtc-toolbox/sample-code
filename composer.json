@@ -1,0 +1,22 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "fxp/composer-asset-plugin": "*",
+    "greg-md/php-orm": "dev-master",
+    "phroute/phroute": "dev-master",
+    "bower-asset/bootstrap": "dev-master",
+    "bower-asset/jquery": "1.12.4",
+    "jenssegers/blade": "dev-master",
+    "twbs/bootstrap": "4.3.1",
+    "bower-asset/bootstrap-rating-input": "^0.4.0@dev"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "installer-paths": {
+            "bower-asset-library": "web/assets"
+      },
+      "enabled": true
+    }
+  }
+}
